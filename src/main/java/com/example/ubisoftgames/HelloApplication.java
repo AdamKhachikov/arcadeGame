@@ -37,7 +37,7 @@ public class HelloApplication extends Application {
     Rectangle rectangle = new Rectangle(RECT_W, RECT_H);
     UserAction action = UserAction.LEFT;
     boolean running = true;
-    double speed = 0.01;
+    double speed = 0.1;
     int count = 0;
     Label label = new Label();
 
